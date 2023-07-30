@@ -1,5 +1,5 @@
 ---
-title: "Labour theory of value (LTV)"
+title: "Labour theory of value"
 date: "2023-07-13"
 tags: ["Economy", "Marx/Capital"]
 enableToc: false
