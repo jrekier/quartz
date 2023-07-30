@@ -1,4 +1,5 @@
 ---
+title: 🎙️ {{Title}}
 tags: [Podcast]
 # date: {{Date}}
 ---

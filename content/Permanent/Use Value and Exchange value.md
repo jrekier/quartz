@@ -1,5 +1,5 @@
 ---
-title: "Use Value and Exchange value"
+title: "Use value and Exchange value"
 date: "2023-07-13"
 tags: ["Economy", "Marx/Capital"]
 enableToc: false
