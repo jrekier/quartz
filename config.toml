@@ -1,9 +1,10 @@
-baseURL = "https://jrekier.github.io/quartz/"
+baseURL = "https://jrekier.github.io/notes/personal/"
 languageCode = "en-us"
 relativeURLs = false
 disablePathToLower = true
 ignoreFiles = [
-    "/content/templates/*",
+    "/content/_Data/templates/*",
+    "/content/Fleeting/*",
     "/content/private/*",
 ]
 summaryLength = 20
