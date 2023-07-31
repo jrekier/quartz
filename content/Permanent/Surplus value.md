@@ -7,7 +7,7 @@ enableToc: false
 
 In order for a capitalist to make a profit, the [[Permanent/Value|Value]] added to the product by the labourer *must be superior to the value paid by the capitalist as wage*.
 
-Therefore **[[Permanent/Labour and Labour Power]]** must be different: capitalists pay the value of the latter, and appropriate the product of the former as commodity. The difference is called **surplus value**.
+Therefore [[Permanent/Labour and Labour Power|Labour and Labour Power]] must be different: capitalists pay the value of the latter, and appropriate the product of the former as commodity. The difference is called **surplus value**.
 
 **Remarks:**
 - In order to repeat the cycle, capitalists must sell the commodity produced on the market. This process is called **realisation**. 

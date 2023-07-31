@@ -12,5 +12,5 @@ Commodities have both **Use value** and **Exchange value**.
 *Example:* 
 The use of a pair of shoes is to not get your feet wet. It can be traded against one coat (say). 
 
-**[[Permanent/Value]]:**
-In that example, the pair of shoes and the coat have equal exchange values which cannot derive from any physical properties of shoes and coats. They have in common of being *products of labor*, and as such, their respective exchange values is equal to a third thing, namely *the labor time socially necessary to their production* (see [[Permanent/Labour theory of value]]). 
+**[[Permanent/Value|Value]]:**
+In that example, the pair of shoes and the coat have equal exchange values which cannot derive from any physical properties of shoes and coats. They have in common of being *products of labor*, and as such, their respective exchange values is equal to a third thing, namely *the labor time socially necessary to their production* (see [[Permanent/Labour theory of value|Labour theory of value]]). 
