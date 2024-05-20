@@ -1,0 +1,1 @@
+This is my first quartz note accessible from [[index]].
