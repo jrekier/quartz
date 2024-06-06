@@ -1,3 +1,21 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+
+.references.csl-bib-body {
+    list-style-type: none; /* Remove default list style */
+    padding-left: 20px; /* Adjust the padding as needed */
+}
+
+.references.csl-bib-body > div {
+    position: relative;
+    margin-left: 20px; /* Indent the divs to account for the bullet */
+    margin-bottom: 0.5em; /* Add space between divs, half a line */
+}
+
+.references.csl-bib-body > div::before {
+    content: "•"; /* Use a bullet character */
+    position: absolute;
+    left: -20px; /* Adjust the position of the bullet */
+    font-size: 1.2em; /* Adjust the size of the bullet if necessary */
+}
