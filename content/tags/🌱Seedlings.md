@@ -1,1 +1,1 @@
-A list rough and early ideas 
+A list of rough and early ideas 
