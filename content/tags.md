@@ -1,0 +1,1 @@
+You can browse the list of all the tags here
