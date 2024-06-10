@@ -2,7 +2,7 @@
 tags:
   - 🌿Budding
 ---
-Public services and projects all cost money. Raising that money is the primary purpose of taxes. 
+Public projects and services cost a lot of money. Raising that money is the primary purpose of taxes. 
 
 This basic fact has been somewhat obfuscated in the past few decades during which we’ve all learned to regard taxes as a tool to deter certain behaviors (you pay taxes on the tobacco you smoke), and encourage others (you get a tax break on a part of the revenue you save for retirement). 
 

@@ -2,9 +2,9 @@
 tags:
   - 🌱Seedlings
 ---
-The [rehype-citation](https://github.com/timlrx/rehype-citation) plugin was recently [added to quartz](https://github.com/jackyzha0/quartz/pull/984), thanks to [@linozen](https://github.com/linozen). 
+The [rehype-citation](https://github.com/timlrx/rehype-citation) plugin was recently [added to quartz](https://github.com/jackyzha0/quartz/pull/984), thanks to the efforts of [@linozen](https://github.com/linozen). 
 
-With that plugin turned on, I am able to make references to academic (and other) works from my `.bib` database maintained with [zotero](https://www.zotero.org/). 
+With that turned on, I am able to make references to academic (and other) works from my `.bib` database maintained with [zotero](https://www.zotero.org/). 
 
 Here is a citation: @Kang2024. Here is another in brackets [@Rekier2022a]
 
