@@ -4,7 +4,19 @@
 
 .references.csl-bib-body {
     list-style-type: none; /* Remove default list style */
-    padding-left: 20px; /* Adjust the padding as needed */
+    // padding-left: 20px; /* Adjust the padding as needed */
+}
+
+// Add title to list of references
+.references.csl-bib-body::before {
+    content: "References"; 
+    display: block;
+    font-size: 1.12rem;
+    margin-top: 1.62rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    margin-bottom: 1em; /* Space between title and list */
+    box-sizing: border-box;
 }
 
 .references.csl-bib-body > div {
