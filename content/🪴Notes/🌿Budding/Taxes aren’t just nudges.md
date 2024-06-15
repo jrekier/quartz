@@ -1,6 +1,6 @@
 ---
 tags:
-  - 🌿Budding
+  - "💸Economy"
 ---
 Public projects and services cost a lot of money. Raising that money is the primary purpose of taxes. 
 

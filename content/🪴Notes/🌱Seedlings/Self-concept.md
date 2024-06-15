@@ -1,6 +1,6 @@
 ---
 tags:
-  - "🌱Seedlings"
+  - "🧠Psychology"
 ---
 Therapy made me want to explore this idea. Starting from the [Wikipedia entry](https://en.m.wikipedia.org/wiki/Self-concept).
 

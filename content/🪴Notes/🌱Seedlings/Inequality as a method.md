@@ -1,6 +1,5 @@
 ---
-tags:
-  - "🌱Seedlings"
+tags: []
 ---
 In the US, inequalities are not just a bad consequence of poor choices, they’re engineered to address problems
 

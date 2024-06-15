@@ -1,6 +1,6 @@
 ---
 tags:
-  - "🌱Seedlings"
+  - "🧐Philosophy"
 ---
 ## Zeroth order logic
 - Logic of propositions

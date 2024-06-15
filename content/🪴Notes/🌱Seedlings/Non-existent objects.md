@@ -1,7 +1,6 @@
 ---
 tags:
-  - "🌱Seedlings"
-  - "🤔Philosophy"
+  - "🧐Philosophy"
 ---
 > [!Quote]
 > Some things don't exist – G. Priest

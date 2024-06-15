@@ -1,1 +1,0 @@
-A list of work I've cleaned up and clarified

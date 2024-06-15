@@ -1,6 +1,6 @@
 ---
 tags:
-  - "🌳Evergreen"
+  - "🎓Academia"
 ---
 The [rehype-citation](https://github.com/timlrx/rehype-citation) plugin was recently [added to quartz](https://github.com/jackyzha0/quartz/pull/984), thanks to the efforts of [@linozen](https://github.com/linozen). 
 

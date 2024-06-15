@@ -1,6 +1,6 @@
 ---
 tags:
-  - 🌱Seedlings
+  - "🧠Psychology"
 ---
 I first heard of this concept through [Daniel Kahneman's bestseller](https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow#Replication_crisis)from 2011. This has come under fire recently in light of the replicability crisis in psychology ([see here](https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow#Replication_crisis)).
 

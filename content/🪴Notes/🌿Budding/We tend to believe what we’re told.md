@@ -1,6 +1,6 @@
 ---
 tags:
-  - "🌿Budding"
+  - "🧠Psychology"
 ---
 I began to explore the scientific literature to back up that sentiment. 
 
