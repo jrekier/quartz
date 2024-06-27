@@ -9,9 +9,9 @@ Many people have written about the supposed intrinsic virtues of atomic notes (e
 Personally, I have found the rigid note format and organization scheme promoted by proponents of the _zettelkästen_ system to be **paralyzing** in the past. I find its evangelists annoying and see them as an offshoot of the recent 'productivity cult.'
 
 I use the 3 types of notes introduced by [Maggie Appleton](https://maggieappleton.com/):
-- [[🪴Notes/🌱Seedlings/index|🌱Seedlings]] for very rough and early ideas
-- [[🪴Notes/🌿Budding/index|🌿Budding]] for work I've cleaned up and clarified
-- [[🪴Notes/🌳Evergreen/index|🌳Evergreen]] for work that is reasonably complete (though I still tend these over time).
+- [[🌱Seedlings/index|🌱Seedlings]] for very rough and early ideas
+- [[🌿Budding/index|🌿Budding]] for work I've cleaned up and clarified
+- [[🌳Evergreen/index|🌳Evergreen]] for work that is reasonably complete (though I still tend these over time).
 
 I haven't got a ton of content yet. Here is a recent one: [[Making citations]]. 
 
