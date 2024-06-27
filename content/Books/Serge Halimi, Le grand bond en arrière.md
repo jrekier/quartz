@@ -3,7 +3,6 @@ title: Serge Halimi, Le grand bond en arrière
 tags:
   - 📚Book
   - 📝Essay
-  - 🌳Evergreen
 cover_image: /images/posts_data/halimi-le-grand-bond-en-arriere/halimi-le-grand-bond-en-arriere.gif
 draft: "true"
 ---

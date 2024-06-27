@@ -1,6 +1,7 @@
 ---
 tags:
   - "🌎Geoscience"
+  - "🍎Physics"
 ---
 The axial Coriolis torque is:
 $$

@@ -122,5 +122,5 @@ Looks like we're in business 🎉. After running as root once, `$./deviceQuery` 
 
 
 >[!Warning]
->The weirdest thing: after reboot CUDA stops working until I reavaluate `sudo ./deviceQuery`. Probably related to [this](https://groups.google.com/g/caffe-users/c/bCe2cbRmV8E). -> need to figure out [this install step](https://docs.nvidia.com/cuda/cuda-quick-start-guide/index.html#debian-installer).
+>The weirdest thing: after reboot CUDA stops working until I reavaluate `sudo ./deviceQuery`. Probably related to [this](https://groups.google.com/g/caffe-users/c/bCe2cbRmV8E). -> need to figure out [this install step](https://docs.nvidia.com/cuda/cuda-quick-start-guide/index.html#debian).
 
