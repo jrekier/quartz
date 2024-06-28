@@ -16,7 +16,7 @@ const config: QuartzConfig = {
     },
     locale: "en-US",
     baseUrl: "jrekier.github.io/quartz",
-    ignorePatterns: ["private", "templates", ".obsidian", "_assets", "💼Work", "🍃Fleeting"],
+    ignorePatterns: ["private", "templates", ".obsidian", "_assets", "💼 Work", "🍃 Fleeting", "🗓️ Daily Notes"],
     defaultDateType: "created",
     theme: {
       fontOrigin: "googleFonts",

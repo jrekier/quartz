@@ -1,5 +1,5 @@
 ---
-title: Welcome to my garden
+title: 👋 Welcome to my garden
 ---
 This website is my attempt at creating my own [Digital Garden](https://maggieappleton.com/garden-history). 
 It uses the beautiful [quartz 4.0](https://quartz.jzhao.xyz/) app to publish my dedicated [Obsidian Vault](https://obsidian.md/) into a static [github page](https://pages.github.com/).
@@ -9,9 +9,9 @@ Many people have written about the supposed intrinsic virtues of atomic notes (e
 Personally, I have found the rigid note format and organization scheme promoted by proponents of the _zettelkästen_ system to be **paralyzing** in the past. I find its evangelists annoying and see them as an offshoot of the recent 'productivity cult.'
 
 I use the 3 types of notes introduced by [Maggie Appleton](https://maggieappleton.com/):
-- [[🌱Seedlings/index|🌱Seedlings]] for very rough and early ideas
-- [[🌿Budding/index|🌿Budding]] for work I've cleaned up and clarified
-- [[🌳Evergreen/index|🌳Evergreen]] for work that is reasonably complete (though I still tend these over time).
+- [[🌱 Seedlings/index|🌱 Seedlings]] for very rough and early ideas
+- [[🌿 Budding/index|🌿 Budding]] for work I've cleaned up and clarified
+- [[🌳 Evergreen/index|🌳 Evergreen]] for work that is reasonably complete (though I still tend these over time).
 
 I haven't got a ton of content yet. Here is a recent one: [[Making citations]]. 
 
