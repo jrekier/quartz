@@ -9,6 +9,8 @@ A list of phrases:
 >- “To hit you in the feels”
 >- "To be a [mark](https://www.urbandictionary.com/define.php?term=A%20Mark)": To be a gullible person 
 >- “No dice”: to no avail
+>- "to a T": accurately, down to every detail
+>- "beyond the pale": unacceptable
 
 
 

@@ -8,7 +8,6 @@ tags:
 Following instructions found [here](https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html#). After [cleaning up](https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html#removing-cuda-toolkit-and-driver) the mess caused in the previous attempt.
 
 ```
-jrekier in 🌐 WATSON-PC in ~
 ❯ lspci | grep -i nvidia
 01:00.0 VGA compatible controller: NVIDIA Corporation GM206 [GeForce GTX 960] (rev a1)
 01:00.1 Audio device: NVIDIA Corporation GM206 High Definition Audio Controller (rev a1)
@@ -16,7 +15,6 @@ jrekier in 🌐 WATSON-PC in ~
 
 My GeForce is listed as supported here: https://developer.nvidia.com/cuda-gpus#compute
 ```
-jrekier in 🌐 WATSON-PC in ~
 ❯ uname -m && cat /etc/*release
 x86_64
 PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"
@@ -49,14 +47,12 @@ Not much info is given to test the installation.
 First thing first, I check that cuda is in my path:
 
 ```
-jrekier in 🌐 WATSON-PC in ~
 ❯ echo $PATH
 /home/jrekier/.cargo/bin:/usr/local/cuda/bin:/home/jrekier/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/snap/bin
 ```
 I found [this](https://www.baeldung.com/linux/ubuntu-gpu-cuda#testing), which is made for Ubuntu, but should work. First try:
 
 ```
-jrekier in 🌐 WATSON-PC in Samples/1_Utilities/deviceQuery on  master
 ❯ ./deviceQuery
 ./deviceQuery Starting...
 
@@ -69,7 +65,6 @@ Result = FAIL
 
 Googling the error, I find [this](https://forums.developer.nvidia.com/t/cuda-10-2-on-linux-listing-devices-gives-error-999/113151/5). Second try as root:
 ```
-jrekier in 🌐 WATSON-PC in Samples/1_Utilities/deviceQuery on  master
 ❯ sudo ./deviceQuery
 ./deviceQuery Starting...
 
@@ -122,5 +117,30 @@ Looks like we're in business 🎉. After running as root once, `$./deviceQuery` 
 
 
 >[!Warning]
->The weirdest thing: after reboot CUDA stops working until I reavaluate `sudo ./deviceQuery`. Probably related to [this](https://groups.google.com/g/caffe-users/c/bCe2cbRmV8E). -> need to figure out [this install step](https://docs.nvidia.com/cuda/cuda-quick-start-guide/index.html#debian).
+>The weirdest thing: after reboot CUDA stops working until I reevaluate `sudo ./deviceQuery`. Probably related to [this](https://groups.google.com/g/caffe-users/c/bCe2cbRmV8E). ~~-> need to figure out [this install step](https://docs.nvidia.com/cuda/cuda-quick-start-guide/index.html#debian)~~.
+
+>[!success]
+>I found the commands needed to enable CUDA after reboot in [this comment](https://askubuntu.com/questions/607118/cuda-not-working-after-returning-laptop-from-sleep). 
+>
+>The solution suggested is antiquated, instead I created the following [`systemd` service](https://linuxhandbook.com/create-systemd-services/):
+>```
+>[Unit]
+Description=NVIDIA settings on startup
+After=multi-user.target
+>
+>[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/nvidia-setup.sh
+RemainAfterExit=yes
+>
+>[Install]
+WantedBy=multi-user.target
+>```
+>
+> which execute the following bashscript:
+> ```
+> #!/bin/bash
+/usr/bin/nvidia-smi -pm ENABLED
+/usr/bin/nvidia-smi -c EXCLUSIVE_PROCESS
+>```
 
