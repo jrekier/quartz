@@ -5,16 +5,10 @@ tags:
 ---
 ## Related notes:
 - [[Axial Coriolis torque on the CMB]]
-## Topical daily notes:
+## Topical log entries:
 ```dataview
-TABLE
-FROM "🗓️ Daily Notes"
-WHERE contains(file.outlinks, this.file.link)
+LIST
+FROM "💼 Work/📙 Log"
+WHERE contains(projects, this.file.name)
 ```
-## Collected Tasks:
-```dataview
-TASK
-from "🗓️ Daily Notes"
-where contains(text, this.file.name)
-sort file.name asc
-```
+## Todo:
